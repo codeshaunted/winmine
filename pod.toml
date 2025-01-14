@@ -1,0 +1,14 @@
+executable = "exe/winmine.exe"
+hash = "fd0ac89373141570aedff0b683129bbd476445d630d225f44aa104067cf25e02"
+assembler_path = "msvc7/Bin/ML.EXE"
+compiler_path = "msvc7/Bin/CL.EXE"
+linker_path = "mingw64/bin/ld.exe"
+
+[[sections]]
+name = ".text"
+
+[[sections]]
+name = ".data"
+
+[[sections]]
+name = ".rsrc"

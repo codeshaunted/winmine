@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Various Garbage
+msvc7/
+mingw64/
