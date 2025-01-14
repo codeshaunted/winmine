@@ -1,14 +1,29 @@
 executable = "exe/winmine.exe"
 hash = "fd0ac89373141570aedff0b683129bbd476445d630d225f44aa104067cf25e02"
-assembler_path = "msvc7/Bin/ML.EXE"
-compiler_path = "msvc7/Bin/CL.EXE"
-linker_path = "mingw64/bin/ld.exe"
+assembler_path = "ml"
+compiler_path = "cl"
+linker_path = "ld"
 
 [[sections]]
 name = ".text"
 
+[[sections.units]]
+kind = "copy"
+addr_virtual = 4096
+raw_size = 15360
+
 [[sections]]
 name = ".data"
 
+[[sections.units]]
+kind = "copy"
+addr_virtual = 20480
+raw_size = 512
+
 [[sections]]
 name = ".rsrc"
+
+[[sections.units]]
+kind = "copy"
+addr_virtual = 24576
+raw_size = 102912

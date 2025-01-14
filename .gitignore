@@ -34,3 +34,4 @@
 # Various Garbage
 msvc7/
 mingw64/
+build/
